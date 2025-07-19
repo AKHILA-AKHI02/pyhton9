@@ -1,0 +1,6 @@
+mo=open(r"D:\mca_test\vy.txt","wt")
+str1=input("Enter a text:")
+mo.write(str1+'\n')
+mo.write('\nWe are using file handling')
+mo.close()
+print("work done")

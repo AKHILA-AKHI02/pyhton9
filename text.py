@@ -1,0 +1,6 @@
+mo=open(r"D:\mca_test\vy.txt","wt")
+print("Name of the file:",mo.name)
+print("Closed or not:",mo.closed)
+print("Opening mode:",mo.mode)
+mo.close()
+print("Closed or not:",mo.closed)

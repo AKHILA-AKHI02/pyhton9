@@ -1,0 +1,7 @@
+mo=open(r"D:\mca_test\vy.txt","r")
+str1=mo.read()
+mo.close()
+mo=open(r"D:\mca_test\mouni.txt","w")
+mo.write(str1)
+mo.close()
+print("work done")
